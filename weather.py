@@ -12,4 +12,4 @@ def get_weather(location: str) -> str:
     return "The Weather is Hot and Dry"
 
 if __name__ == "__main__":
-    mcp.run()
+    mcp.run(transport="streamable-http")
